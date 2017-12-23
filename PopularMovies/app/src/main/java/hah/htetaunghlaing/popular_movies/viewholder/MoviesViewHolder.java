@@ -30,6 +30,7 @@ public class MoviesViewHolder extends RecyclerView.ViewHolder {
 
        // Toast.makeText(view.getContext(),"You click items",Toast.LENGTH_SHORT).show();
         nMoviesItemDelegates.onTapMoviesItem();
+
     }
 }
 

@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements MoviesItemDelegat
 
     @Override
     public void onTapMoviesItem() {
+
         Intent intent=new Intent(getApplicationContext(),MovieDetailsActivity.class);
         startActivity(intent);
     }
